@@ -1,11 +1,16 @@
-# phpMyFAQ 3.0
+# phpMyKB 3.0
 
 [![Travis branch](https://img.shields.io/travis/thorsten/phpMyFAQ/3.0.svg?style=flat-square)](https://travis-ci.org/thorsten/phpMyFAQ)
 [![Minimum PHP Version](https://img.shields.io/badge/PHP-%3E%3D5.6-%23777BB4.svg?style=flat-square)](https://php.net/)
 [![Slack](https://phpmyfaq.herokuapp.com/badge.svg?style=flat-square)](https://phpmyfaq.herokuapp.com)
 
-## What is phpMyFAQ?
+## What is phpMyKB?
 
+phpMyKB is a fork of phpMyFAQ. I did this so I can change the terminology used
+in the product to fit a Knowledge Base instead og a FAQ site. Changes are mainly
+done in the UI strings.
+
+## What is phpMyFAQ?
 phpMyFAQ is a multilingual, completely database-driven FAQ-system. It supports
 various databases to store all data, PHP 5.6+ is needed in order to
 access this data. phpMyFAQ also offers a multi-language Content Management
