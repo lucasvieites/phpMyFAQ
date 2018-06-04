@@ -3,7 +3,7 @@
 /**
  * The English language file - try to be the best of British and American English
  *
- * PHP Version 5.5
+ * PHP Version 5.6
  *
  * This Source Code Form is subject to the terms of the Mozilla Public License,
  * v. 2.0. If a copy of the MPL was not distributed with this file, You can
@@ -1250,6 +1250,39 @@ $PMF_LANG['ad_image_name_search'] = 'Search for image name';
 // added v2.9.0-RC - 2016-02-19 by Thorsten
 $PMF_LANG['ad_admin_notes'] = 'Private Notes';
 $PMF_LANG['ad_admin_notes_hint'] = '%s (only visible for editors)';
+-// added 2.10.0-alpha - 2016-08-08 by Thorsten
+-$LANG_CONF['ldap.ldap_mapping.name'] = array(0 => 'input', 1 => 'LDAP mapping for name, "cn" when using an ADS');
+-$LANG_CONF['ldap.ldap_mapping.username'] = array(0 => 'input', 1 => 'LDAP mapping for username, "samAccountName" when using an ADS');
+-$LANG_CONF['ldap.ldap_mapping.mail'] = array(0 => 'input', 1 => 'LDAP mapping for email, "mail" when using an ADS');
+-$LANG_CONF['ldap.ldap_mapping.memberOf'] = array(0 => 'input', 1 => 'LDAP mapping for "member of" when using LDAP groups');
+-$LANG_CONF['ldap.ldap_use_domain_prefix'] = array('checkbox', 'LDAP domain prefix, e.g. "DOMAIN\username"<br>(default: activated)');
+-$LANG_CONF['ldap.ldap_options.LDAP_OPT_PROTOCOL_VERSION'] = array(0 => 'input', 1 => 'LDAP protocol version<br>(default: 3)');
+-$LANG_CONF['ldap.ldap_options.LDAP_OPT_REFERRALS'] = array(0 => 'input', 1 => 'LDAP referrals<br>(default: 0)');
+-$LANG_CONF['ldap.ldap_use_memberOf'] = array('checkbox', 'Enable LDAP group support, e.g. "DOMAIN\username"<br>(default: deactivated)');
+-$LANG_CONF['ldap.ldap_use_sasl'] = array('checkbox', 'Enable LDAP SASL support<br>(default: deactivated)');
+-$LANG_CONF['ldap.ldap_use_multiple_servers'] = array('checkbox', 'Enable multiple LDAP servers support<br>(default: deactivated)');
+-$LANG_CONF['ldap.ldap_use_anonymous_login'] = array('checkbox', 'Enable anonymous LDAP connections<br>(default: deactivated)');
+-$LANG_CONF['ldap.ldap_use_dynamic_login'] = array('checkbox', 'Enable LDAP dynamic user binding<br>(default: deactivated)');
+-$LANG_CONF['ldap.ldap_dynamic_login_attribute'] = array(0 => 'input', 1 => 'LDAP attribute for dynamic user binding, "uid" when using an ADS');
+-$LANG_CONF['seo.enableXMLSitemap'] = array('checkbox', 'Enable XML sitemap<br>(default: activated)');
+-$PMF_LANG['ad_category_image'] = 'Entity image';
+-$PMF_LANG["ad_user_show_home"] = "Show on startpage";
+-
+-// added v.2.10.0-alpha - 2017-11-09 by Brian Potter (BrianPotter)
+-$PMF_LANG['ad_view_faq'] = 'View Knowledge Base';
+-
+-// added 3.0.0-alpha - 2018-01-04 by Thorsten
+-$LANG_CONF['main.enableCategoryRestrictions'] = ['checkbox', 'Enable category restrictions<br>(default: activated)'];
+-$LANG_CONF['main.enableSendToFriend'] = ['checkbox', 'Enable send to friends<br>(default: activated)'];
+-$PMF_LANG['msgUserRemovalText'] = 'You can request the deletion of your account and personal data. An email will be sent to the admin team. The team will delete your account, comments and questions. Since this is a manual process, it can take up to 24 hours. After this you will receive a deletion confirmation  by email. ';
+-$PMF_LANG["msgUserRemoval"] = "Request user removal";
+-$PMF_LANG["ad_menu_RequestRemove"] = "Request user removal";
+-$PMF_LANG["msgContactRemove"] = "Deletion request from admin team:";
+-$PMF_LANG["msgContactPrivacyNote"] = "Please notice our";
+-$PMF_LANG["msgPrivacyNote"] = "Privacy Statement";
+-
+-// added 3.0.0-alpha2 - 2018-03-27 by Thorsten
+-$LANG_CONF['main.enableAutoUpdateHint'] = ['checkbox', 'Automatic check for new versions<br>(default: activated)'];
 
 // added v2.9.10 - 2018-02-17 by Thorsten
 $PMF_LANG['ad_quick_entry'] = 'Add new KB article in this category';
